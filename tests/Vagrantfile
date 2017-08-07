@@ -1,15 +1,18 @@
 
-Vagrant.configure('2') do |config|
+Vagrant.configure('2') do | config |
+
   # FORESHADOWING: This will let me add another VM later.
   config.vm.define "rabbit" do | rabbitn |
 
     rabbit.vm.box = "hashicorp/precise64"
-    rabbit.vm.hostname = "rabbit.example.com"
+    rabbit.vm.hostname = "rabbit.ehimeprefecture.com"
+
     rabbit.vm.network "private_network", ip: "192.168.50.100"
 
     rabbit.vm.provision :puppet do | puppet |
       puppet.manifest_file  = "init.pp"
       puppet.module_path = "~/puppet/modules"
+
       # Need to set the fqdn here as well; see
       # http://www.benjaminoakes.com/2013/04/25/making-puppets-fqdn_rand-play-nice-with-vagrant/
       puppet.facter = { 'fqdn'  => rabbit.vm.hostname }
