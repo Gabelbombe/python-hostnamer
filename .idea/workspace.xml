@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54966a8b-e381-45b8-ba80-e8a55c563b13" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/send_once.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/spec/rabbit/rabbitport_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/Rakefile" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="send_once.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="send_once.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/send_once.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -91,6 +89,16 @@
               <folding>
                 <element signature="e#22#33#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Rakefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,6 +129,7 @@
         <option value="$PROJECT_DIR$/tests/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/tests/spec/rabbit/rabbitport_spec.rb" />
         <option value="$PROJECT_DIR$/tests/send_once.py" />
+        <option value="$PROJECT_DIR$/tests/Rakefile" />
       </list>
     </option>
   </component>
@@ -543,6 +552,14 @@
           <folding>
             <element signature="e#22#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
