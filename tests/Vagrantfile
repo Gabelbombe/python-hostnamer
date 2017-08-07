@@ -1,4 +1,5 @@
-
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
 Vagrant.configure('2') do | config |
 
   # FORESHADOWING: This will let me add another VM later.
@@ -6,7 +7,7 @@ Vagrant.configure('2') do | config |
 
     rabbit.vm.box = "hashicorp/precise64"
     rabbit.vm.hostname = "rabbit.ehimeprefecture.com"
-s
+
     rabbit.vm.network "private_network", ip: "192.168.50.100"
 
     rabbit.vm.provision :puppet do | puppet |
